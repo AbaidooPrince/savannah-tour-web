@@ -2,11 +2,11 @@ import { Slider } from "../../components/slider/Slider"
 import style from './HomepageLayout.module.css'
 
 const HomepageLayout = (props) => {
-    const { slides, children } = props
+    const { banner, children } = props
     return (
         <main>
             <section className={style.header}>
-            <Slider slides={[]}></Slider>
+            <Slider slides={banner}></Slider>
             </section>
             <div className={style.otherSections}>
                 <div>Hello</div>

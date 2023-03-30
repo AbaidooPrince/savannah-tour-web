@@ -2,9 +2,10 @@ import style from './Slider.module.css'
 
 export const SlideItem = ({backgroundImage, cta, headline, subline}) => (<div>
     <div>
-        <h2>{headline}</h2>
+  <img className={style.banner} alt='rot'  src={backgroundImage}></img>
+        {/* <h2>{headline}</h2>
         <p>{subline}</p>
-        <a href={cta.page} className={style.ctaButton}>{cta.text}</a>
+        <a href={cta.page} className={style.ctaButton}>{cta.text}</a> */}
     </div>
 </div>)
 
