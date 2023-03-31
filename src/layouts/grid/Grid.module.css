@@ -1,4 +1,4 @@
-@value breakpoints: 'src/layouts/grid/Grid.module.css';
+@value breakpoints: '../../styling/breakpoints.css';
 @value xs, sm, md, lg, xl, xxl from breakpoints;
 
 @value colSpace: 15px;
@@ -12,6 +12,13 @@
   box-sizing: border-box;
   padding-left: containerSpace;
   padding-right: containerSpace;
+  margin: 0 auto;
+}
+
+.container .fluid {
+  box-sizing: border-box;
+  padding-left: 0;
+  padding-right: 0;
   margin: 0 auto;
 }
 

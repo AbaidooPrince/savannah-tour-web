@@ -124,6 +124,8 @@ body {
   font-family: var(--fontFamilyRegular);
   font-weight: var(--fontWeightNormal);
   margin: 0;
+  width: 100wh;
+  overflow-x: hidden;
 }
 
 h1,

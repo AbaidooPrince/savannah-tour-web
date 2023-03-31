@@ -1,4 +1,3 @@
-import './App.css';
 import HomepageLayout from './layouts/homepage/HomepageLayout';
 
 function App() {
@@ -7,7 +6,11 @@ function App() {
   ]
   return (
     <div>
-      <HomepageLayout banner={banner}></HomepageLayout>
+      <HomepageLayout banner={banner}>
+        <div>
+
+        </div>
+      </HomepageLayout>
     </div>
   );
 }
