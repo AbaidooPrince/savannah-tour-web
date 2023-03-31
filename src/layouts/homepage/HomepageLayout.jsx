@@ -37,7 +37,9 @@ const HomepageLayout = (props) => {
       </div>
       <div className={style.otherSections}>
         <Container>
-        {children}
+            <div className={style.otherSectionsContent}>       
+                {children}
+            </div>
         </Container>
       </div>
     </main>

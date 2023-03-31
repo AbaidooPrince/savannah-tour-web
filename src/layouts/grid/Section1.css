@@ -1,0 +1,25 @@
+.col-3-section {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.sect-1 {
+  background-color: black;
+  height: 200px;
+}
+.sect-2 {
+  background-color: rgba(236, 169, 169, 0.877);
+  height: 200px;
+}
+.sect-3 {
+  background-color: rgb(219, 26, 26);
+  height: 200px;
+}
+@media (max-width: 780px) {
+  .col-3-section {
+    grid-template-columns: 1fr;
+    
+  }
+}
