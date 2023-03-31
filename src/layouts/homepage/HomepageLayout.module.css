@@ -1,3 +1,6 @@
+/* @import url('../../styling/breakpoints.css'); */
+@value breakpoints: '../../styling/breakpoints.css';
+@value xs, md, lg, xl from breakpoints;
 .header {
     background-color: blue;
     width: 100%;
@@ -18,10 +21,11 @@ ul.slick-dots {
     color: blue;
 }
 .otherSections {
-    background-color: red;
-    border-radius: 5rem 5rem 0 0;
+    justify-content: center;
+    background-color: var(--neutral50);
+    border-radius: 5rem;
     position: relative;
-    height: 5rem;
+    /* height: 10rem; */
     bottom: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -34,4 +38,12 @@ ul.slick-dots {
     top: 0;
     padding: 2rem 5rem;
 
+}
+
+@media (max-width: md) {
+    .otherSections {
+        width: 100%;
+    }
+    
+    
 }

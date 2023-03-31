@@ -1,0 +1,51 @@
+/* @import url('../../styling/breakpoints.css'); */
+@value breakpoints: '../../styling/breakpoints.css';
+@value xs, sm, md, lg, xl, xxl from breakpoints;
+.destinationItem {
+    width: 8rem;
+    height: 6rem;
+    text-align: center;
+
+}
+
+.destinationItem img {
+    border-radius: 5rem;
+    outline-color: var(--primary);
+    outline-style: solid;
+    width: 6rem;
+    height: 6rem;
+    object-fit: fill;
+    margin-bottom: 0;
+}
+
+.destinationList {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+    margin-top: -0.5rem;
+}
+
+
+@media (max-width: sm) {
+    .destinationList {
+        grid-template-columns: 1fr;
+    } 
+}
+@media (max-width: md) {
+    .destinationList {
+        grid-template-columns: repeat(5, 1fr);
+    } 
+}
+@media (max-width: lg) {
+    .destinationList {
+        grid-template-columns: repeat(5, 1fr);
+    } 
+}
+@media (max-width: xl) {
+    .destinationList {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+}
+
