@@ -5,6 +5,7 @@
     width: 8rem;
     height: 6rem;
     text-align: center;
+    padding: 2rem 2rem;
 
 }
 
@@ -19,15 +20,11 @@
 }
 
 .destinationList {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    list-style: none;
-    margin-top: -0.5rem;
+    padding: 1rem 2rem;
 }
 
 
-@media (max-width: sm) {
+/* @media (max-width: sm) {
     .destinationList {
         grid-template-columns: 1fr;
     } 
@@ -47,5 +44,5 @@
         grid-template-columns: repeat(5, 1fr);
     }
     
-}
+} */
 

@@ -28,7 +28,7 @@ const HomepageLayout = (props) => {
               <img
                 className={style.slideItem}
                 alt='banner'
-                src='https://images.pexels.com/photos/3661973/pexels-photo-3661973.png?auto=compress&cs=tinysrgb&w=6000'
+                src='https://images.pexels.com/photos/7149181/pexels-photo-7149181.jpeg?auto=compress&cs=tinysrgb&w=6000'
               />
             </div>
           </Slider>
