@@ -1,25 +1,24 @@
-.col-3-section {
+.col3Section {
   width: 80%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
+  gap: 2rem;
 }
-.sect-1 {
+.sect1 {
   background-color: black;
   height: 200px;
 }
-.sect-2 {
+.sect2 {
   background-color: rgba(236, 169, 169, 0.877);
   height: 200px;
 }
-.sect-3 {
+.sect3 {
   background-color: rgb(219, 26, 26);
   height: 200px;
 }
 @media (max-width: 780px) {
-  .col-3-section {
+  .col3Section {
     grid-template-columns: 1fr;
-    
   }
 }

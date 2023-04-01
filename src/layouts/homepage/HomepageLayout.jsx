@@ -21,26 +21,28 @@ const HomepageLayout = (props) => {
               <img
                 className={style.slideItem}
                 alt='banner'
-                src='https://images.unsplash.com/photo-1679305289765-c899db4ce88a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MDIxNDg5Mw&ixlib=rb-4.0.3&q=80&w=1080'
+                src='https://images.pexels.com/photos/4913546/pexels-photo-4913546.jpeg?auto=compress&cs=tinysrgb&w=6000&dpr=1'
               />
             </div>
             <div>
               <img
                 className={style.slideItem}
                 alt='banner'
-                src='https://images.unsplash.com/photo-1679305289765-c899db4ce88a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MDIxNDg5Mw&ixlib=rb-4.0.3&q=80&w=1080'
+                src='https://images.pexels.com/photos/3661973/pexels-photo-3661973.png?auto=compress&cs=tinysrgb&w=6000'
               />
             </div>
           </Slider>
           {/* </Row> */}
         </Container>
       </div>
-      <div className={style.otherSections}>
+      <div>
         <Container>
-            <div className={style.otherSectionsContent}>       
+            <div>       
                 {children}
             </div>
         </Container>
+      </div>
+      <div>
       </div>
     </main>
   )
